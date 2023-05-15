@@ -1,0 +1,166 @@
+ul{
+    list-style: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+.botao_abas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 125vh;
+    left: 20vw;
+    position: absolute;
+    z-index: 3;
+    
+}
+.botao_contato{
+
+    top: 25vw;
+    left: 20vw;
+    position: absolute;
+    z-index: 3;
+    
+}
+
+.Botoes_img{
+    min-width: 200px;
+}
+.imagem_pai-css{
+    position: absolute;
+}
+.imagem_filho-css{
+    position: relative;
+    z-index: 0;
+    color: azure;
+    top: 100px;
+    left: 30%;
+}
+html, body{
+    margin: 0;
+
+}
+.pezinho-texto{
+    position: relative;
+    color: #ffffff;
+    font-family: 'montserrat';
+    top: 70vh;
+    left: 5%;
+    max-width: 1000px;
+    font-size: larger;
+    word-spacing: 5pt;
+    letter-spacing: 2pt;
+    
+}
+.contato-texto{
+    color: #ffffff;
+    font-family: 'montserrat';
+    left: 5%;
+    max-width: 1000px;
+    font-size: larger;
+    word-spacing: 5pt;
+    letter-spacing: 2pt;
+}
+.pezinho-imagem{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 1067px; */
+    height: 60vw;
+    z-index: 5;
+}
+.buchuda-imagem{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 788px;
+    margin-top: 40vh;
+}
+.buchuda-texto{
+    position: relative;
+    
+    font-weight: bold;
+    letter-spacing: 0.4vw;
+    word-spacing: 2px;
+    color: #ffffff;
+    font-family: 'montserrat';
+    top: 23vh;
+    left: 10vw;
+    /* max-width: fit-content; */
+}
+.buchuda_texto-form{
+    position: relative;
+    
+    color: #ffffff;
+    font-family: 'montserrat';
+    font-weight: bold;
+    top: 23vh;
+    left: 10vw;
+}
+.formulario-tamanho{
+    margin-bottom: 15px;
+    
+}
+.sec3_texto{
+    padding-top: 35vh;
+}
+.sec3_imagem{
+    padding: 10vh 5vh 10vh 0;
+}
+.img_predio{
+    border-radius: 10px;
+}
+.plano-title{
+    padding-left: 4vh;
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 60pt;
+    letter-spacing: 5pt;
+}
+.plano-text{
+    padding:5vh 0 0 4vh;
+    max-width: 77%;
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 12pt;
+    letter-spacing: 0.5pt;
+}
+.botao-planos{
+    margin: 15px 0 0 4vh;
+    font-size: 12pt;
+    
+}
+.texto{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #2f2a2a;
+}
+.texto-titulo{
+    font-weight: bold;
+    font-family: 'Montserrat';
+
+}
+.texto-preto{
+    font-weight: 700;
+    font-family: 'Montserrat';
+    color: #000000;
+    letter-spacing: 0.4vw;
+}
+.subimite{
+    border-radius: 8px;
+    background-color: #59AA8C;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'montserrat';
+    letter-spacing: 2px;
+}
+.contato-form{
+    position: relative; max-width: 300px; top: 20vw;
+}
+.seletor{
+    border: solid 5px #59AA8C;
+
+}

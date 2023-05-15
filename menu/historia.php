@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ana maternidade</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="icon" href="../img/mdb-favicon.ico" type="image/x-icon" />
+        <!-- Font Awesome -->
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        />
+        <!-- Google Fonts Roboto -->
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+        />
+        <!-- Google Fonts Montserrat -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+        <!-- MDB -->
+        <link rel="stylesheet" href="../css/mdb.min.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    
+    </head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-light bg-white" style="z-index: 3;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.php"><i class="row"><img src="../img/logo/logo-pequeno.png" alt=""></i></a>
+            <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item dropdown">
+                            <a  class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Maternidade
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="historia.php" class="dropdown-item">Nossa História</a></li>
+                                <li><a href="infraestrutura.php"  class="dropdown-item">Infraestrutura</a></li>
+                            </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                            <a  class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Gestantes
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="pre-natal.php" class="dropdown-item">Pré-natal</a></li>
+                                <li><a href="internacao.php"  class="dropdown-item">Internação</a></li>
+                            </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="servicos.php" class="nav-link active">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contato.php" class="nav-link active">Contato</a>
+                    </li>
+                </ul>
+            
+            </div>
+            
+            <!-- <div class="row">
+                <input type="text" name="" id="" class="navbar-nav me-auto mb-2 mb-lg-0">
+            </div> -->
+            <nav class="navbar-body-tertiary">
+                <form action="" class="container-fluid">
+                    <div class="input-group">
+                        <input type="text" name="" id="" class="form-control">
+                    </div>
+                </form>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção com a foto da mão do nenem de fundo com um texto -->
+        <section class="image-container w-100 object-fit-xxl-contain pezinho-imagem" style="height: 60vw; background-image: url(../img/Sobre_nos/Nossa_historia.jpg);">
+            <div class="text-container pezinho-texto" style="line-height: 0; top: 40vw;">
+                <p class="texto">
+                    <a  style="color:#ffffff !important;" href="../index.php">
+                        < Home
+                    </a>
+                </p>
+                <h1 style="color:#ffffff !important; font-weight: 500;" class="texto-titulo">Nossa História</h1>
+                <br>
+                <p style="color:#ffffff !important; font-weight: 500;" class="texto-titulo">Maternidade ANA</p>
+            </div>
+            
+        </section>
+        <section class="container-fluid">
+            <div class="text-container p-5">
+                <h1 class="texto-titulo my-2 pb-2" style="color: #075e3e;">História</h1>
+                <p class="texto" style="font-weight: 500; letter-spacing: 1.5px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, illo. Recusandae ipsa commodi id unde vero aliquam amet, sit assumenda libero nobis quos odio! Explicabo porro rem similique velit dolorum!
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, illo. Recusandae ipsa commodi id unde vero aliquam amet, sit assumenda libero nobis quos odio! Explicabo porro rem similique velit dolorum!
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, illo. Recusandae ipsa commodi id unde vero aliquam amet, sit assumenda libero nobis quos odio! Explicabo porro rem similique velit dolorum!
+                </p>
+                <br>
+                <p class="texto" style="font-weight: 500; letter-spacing: 1.5px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quidem, nulla natus deserunt tempore maiores quibusdam laborum aliquam iste debitis. Voluptatem sed quas architecto ut labore alias unde! Accusamus, quidem.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, illo. Recusandae ipsa commodi id unde vero aliquam amet, sit assumenda libero nobis quos odio! Explicabo porro rem similique velit dolorum!
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, illo. Recusandae ipsa commodi id unde vero aliquam amet, sit assumenda libero nobis quos odio! Explicabo porro rem similique velit dolorum!
+                </p>
+            </div>
+
+        </section>
+        <section class="container-fluid p-5" style="background-color: #e1c3aa;">
+            <h1 class="texto-titulo pb-4" style="color: #075e3e; letter-spacing: 4px;">Nossa estrutura em números</h1>
+            <div class="text-container row mx-auto">
+                <div class="mx-auto row">
+                <div class="text-container col mx-auto py-3">
+                    <h3 class="texto-titulo ms-3" style="color: #075e3e; letter-spacing: 4px;">28.000 m²</h3>
+                    <p class="texto-preto" style="letter-spacing: 2px;">de área construída</p>
+                </div>
+                <div class="text-container col mx-auto py-3">
+                    <h3 class="texto-titulo" style="color: #075e3e; letter-spacing: 4x;">161</h3>
+                    <p class="texto-preto" style="letter-spacing: 2px;">Leitos</p>
+                </div>
+                <div class="text-container col mx-auto py-3">
+                    <h3 class="texto-titulo ms-5" style="color: #075e3e; letter-spacing: 4px;">105</h3>
+                    <p class="texto-preto" style="letter-spacing: 2px;">Apartamentos</p>
+                </div>
+                <div class="text-container col mx-auto py-3 pb-5">
+                    <h3 class="texto-titulo ms-5" style="color: #075e3e; letter-spacing: 4px;">18</h3>
+                    <p class="texto-preto" style="letter-spacing: 2px;">Enfermarias</p>
+                </div>
+                </div>
+                
+            </div>
+
+
+        </section>
+        <section class="container-fluid p-5">
+            
+            <h1 class="texto-titulo" style="color: #075e3e;">Dedicação à sua saúde</h1>
+            <div class="text-container mx-auto p-5">
+                <div class="text-container row px-5">
+                    <h4 class="col texto-preto">Nosso objetivo</h2>
+                    <p class="texto w-75">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore accusantium dolorem ratione deleniti, eius reiciendis quasi illum eligendi quisquam asperiores, at hic, quae voluptatem rem blanditiis perspiciatis. Quasi, dicta eligendi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis fugit cumque laudantium repudiandae fuga eaque velit, eveniet quo ducimus. Aut, vitae soluta. Nisi, sapiente quo. Dolorem deleniti assumenda nisi cumque.</p>
+                </div>
+                <hr>
+                <div class="text-container row px-5">
+                    <h4 class="col texto-preto">Nossa missão</h2>
+                    <p class="texto w-75">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore accusantium dolorem ratione deleniti, eius reiciendis quasi illum eligendi quisquam asperiores, at hic, quae voluptatem rem blanditiis perspiciatis. Quasi, dicta eligendi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus porro nemo aliquam, unde impedit repellendus cumque! Eaque alias minima illo tempora. Fugit, corporis. Quos autem eos iure exercitationem quam et!</p>
+                </div>
+                <hr>
+                <div class="text-container row px-5">
+                    <h4 class="col texto-preto">Nossos valores</h2>
+                    <p class="texto w-75">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore accusantium dolorem ratione deleniti, eius reiciendis quasi illum eligendi quisquam asperiores, at hic, quae voluptatem rem blanditiis perspiciatis. Quasi, dicta eligendi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos in voluptates reiciendis adipisci. Quis sequi fuga accusamus, numquam dolorem temporibus sunt labore obcaecati voluptates laudantium recusandae iusto vitae nesciunt non.</p>
+                </div>
+            </div>
+
+        </section>
+        <section class="container-fluid pb-3">
+            <div class="row px-5">
+                <div class="image-container col" style="column-gap: 0;">
+                    <img src="../img/Sobre_nos/demostraçao_1.jpg" class="img-fluid rounded" alt="">
+                </div>
+                <div class="image-container col">
+                    <img src="../img/Sobre_nos/demostraçao_2.jpg" class="img-fluid ms-0 rounded" alt="">
+                </div>
+            </div>
+            
+
+        </section>
+    </main>
+
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+        
+        <!-- Grid container -->
+        <div class="container pt-4">
+            <div class="ms-2">
+                <img src="img/logo/logo-pequeno.png" alt="" class="alignt-itens-center">
+            </div>
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+      <script src="../js/mdb.min.js"></script>
+      <script src="../js/mdb.min.js.map"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    
+</body>
+</html>
