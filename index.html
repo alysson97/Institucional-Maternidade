@@ -38,7 +38,7 @@
     <!-- Aqui temos um ícone, os links para as outras seções e página de pesquisa. O projeto está adaptado para smartphones -->
     <header class="navbar navbar-expand-lg navbar-light bg-white" style="z-index: 3;">
     <div class="container-fluid">
-            <a class="navbar-brand" href="../index.php"><i class="row"><img src="img/logo/logo-pequeno.png" alt=""></i></a>
+            <a class="navbar-brand" href="../index.html"><i class="row"><img src="img/logo/logo-pequeno.png" alt=""></i></a>
             <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
                 <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
@@ -47,8 +47,8 @@
                             Maternidade
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="menu/historia.php" class="dropdown-item">Nossa História</a></li>
-                                <li><a href="menu/infraestrutura.php"  class="dropdown-item">Infraestrutura</a></li>
+                                <li><a href="menu/historia.html" class="dropdown-item">Nossa História</a></li>
+                                <li><a href="menu/infraestrutura.html"  class="dropdown-item">Infraestrutura</a></li>
                             </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -56,15 +56,15 @@
                             Gestantes
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="menu/pre-natal.php" class="dropdown-item">Pré-natal</a></li>
-                                <li><a href="menu/internacao.php"  class="dropdown-item">Internação</a></li>
+                                <li><a href="menu/pre-natal.html" class="dropdown-item">Pré-natal</a></li>
+                                <li><a href="menu/internacao.html"  class="dropdown-item">Internação</a></li>
                             </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="menu/servicos.php" class="nav-link active">Serviços</a>
+                        <a href="menu/servicos.html" class="nav-link active">Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a href="menu/contato.php" class="nav-link active">Contato</a>
+                        <a href="menu/contato.html" class="nav-link active">Contato</a>
                     </li>
                 </ul>
             
@@ -183,7 +183,7 @@
             <div class="mw-25 my-4 ms-4">
                 <h4 class="texto-preto">Deixe seu comentário</h4>
             </div>
-            <form action="component/commentFunc.php" method="post" class="ms-4" >
+            <form action="component/commentFunc.html" method="post" class="ms-4" >
                 <div class="row formulario-tamanho w-50">
                     <input type="text" name="nome" class="form-control" placeholder="Nome*">
                 </div>
@@ -199,79 +199,11 @@
             </form>
         </section>
 
-        <!-- Comentarios -->
-        <section class="container-fluid my-5">
-            <div class="row ms-4">
-                <h4 class="texto-preto">Comentarios (<span id="comentNumber"></span>)</h4>
-            </div>
-            <div class="col texto-titulo texto-preto mt-5">
-                <div class="row"><h3 class="ms-2"><img src="img/icon/comentario.png" alt="" class="mb-2"><span class="texto-titulo ms-2">Titulo_teste</span></h3></div>
-            <div class="row ms-2">
-                <p class="texto">Teste</p>
-            </div><br>
-        </div>
-            
-            <!-- <span class="material-symbols-outlined">account_circle</span> -->
-            <?php
-                $comments = file_get_contents("component/comments.txt");
-                echo $comments;
-            ?>
-
 
         </section>
     </main>
 
-    <!-- <footer class="container-fluid mx-auto p-2">
-        <div class="row mb-4 mx-auto p-2">
-            <div class="col mx-auto p-2">
-                <img src="img/logo/logo-medio.png" alt="">
-            </div>
-            <div class="col mx-auto p-2">
-                <div class="row mx-auto p-2">
-                    <ul class="list-unstyled list-group list-group-horizontal mx-auto p-2">
-                        <li class="flex-fill mx-auto p-2">Imprensa</li>
-                        <li class="flex-fill mx-auto p-2">Contato</li>
-                        <li class="flex-fill mx-auto p-2">Trabalhe conosco</li>
-                        <li class="flex-fill mx-auto p-2">Ética</li>
-                    </ul>
-                </div>
-                <div class="row mx-auto p-2">
-                    <p>Acompanhe nossas redes sociais</p>
-                
-                    <ul class="list-unstyled list-group list-group-horizontal">
-                        
-                        <li class="flex-fill mx-auto p-2">
-                            
-                            <i class="bi bi-facebook">
-                                <img src="img/icon/facebook-icon.png" alt="">
-                            </i>
-                            <a href="https://www.facebook.com">Facebook</a>
-                        </li>
-                        <li class="flex-fill mx-auto p-2">
-                            <a href="#">
-                                <i class="bi bi-instagram">
-                                    <img src="img/icon/Instagram-icon.png" alt="">
-                                </i></a>Instagram
-                        </li>
-                        <li class="flex-fill mx-auto p-2">
-                            <a href="#"><i class="bi bi-linkedin">
-                                <img src="img/icon/LinkedIn-icon.png" alt="">
-                            </i></a>LinkedIn
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col mx-auto p-2">
-                <div>
-                    <i>
-                        <img src="img/icon/whats.png" alt="">
-                    </i>
-                </div>
-            </div>
-        </div>
-        
-        
-    </footer> -->
+ 
     <footer class="text-center text-white" style="background-color: #f1f1f1;">
         
         <!-- Grid container -->
